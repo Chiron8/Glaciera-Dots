@@ -10,5 +10,5 @@ Video:
 
 ## 🎥 Demo
 
-[![Watch the demo]](https://www.youtube.com/watch?v=iyI5Qn-g230)
+[Watch the demo](https://www.youtube.com/watch?v=iyI5Qn-g230)
 
