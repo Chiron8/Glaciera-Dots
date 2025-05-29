@@ -8,5 +8,16 @@ I'll add detailed info later
 
 Video:
 
-![Video](https://www.youtube.com/watch?v=iyI5Qn-g230)
+![Video](https://github.com/Chiron8/Glaciera-Dots/blob/master/output2.mp4)
+
+
+
+
+
+
+
+
+
+
+)
 
