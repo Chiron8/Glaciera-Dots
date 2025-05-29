@@ -1,0 +1,120 @@
+* {
+	color: {{foreground}};
+        outline: none;
+}
+
+.blank-window {
+	background: transparent;
+	outline: {{background}};
+}
+
+.notification-action,
+.notification-default-action,
+.control-center {
+	border-radius: 0.75em;
+	background: alpha({{background}}, 0.5);
+}
+
+.notification {
+	box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.5);
+	background: alpha({{color3}}, 0.8);
+}
+
+
+.notification-content {
+	margin: 5px;
+}
+
+.control-center .notification-row {
+	/*background: alpha({{color3}}, 0.2);*/
+	background: transparent;
+	border: none;
+}
+
+.widget-dnd {
+	font-weight: bold;
+	margin: 1em;
+}
+
+.widget-dnd>switch {
+	border-radius: 0.75em;
+	background: alpha({{color3}}, 0.5);
+	padding: 1px;
+}
+
+.widget-dnd> switch slider {
+	border-radius: 0.75em;
+	background: transparent;
+	box-shadow: none;
+}
+
+.widget-mpris {
+	border-radius: 0.75em;
+	background: transparent;
+	margin: 4px;
+}
+
+.widget-buttons-grid {
+	margin: 1em;
+	background: alpha({{color3}}, 0.5);
+}
+
+.widget-buttons-grid>flowbox>flowboxchild>button {
+	box-shadow: none;
+	color: {{foreground}};
+	font-style: normal;
+	background: {{background}};
+}
+
+.widget-buttons-grid>flowbox>flowboxchild>button:hover {
+	background: {{background}};
+}
+
+/* Style for sliders in swaync */
+
+trough {
+    border-radius: 20px;
+    background: transparent;
+    border: none;
+}
+
+trough highlight {
+    padding: 5px;
+    background: {{color3}};
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+    transition: all .7s ease;
+    outline: none;
+    border: none;
+}
+trough highlight:hover {
+    padding: 5px;
+    background: {{color3}};
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    transition: all .7s ease;
+}
+
+trough slider {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+trough slider:hover {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.widget-volume {
+    background-color: transparent;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 12px;
+}
+.widget-backlight {
+    background-color: transparent;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 12px;
+}

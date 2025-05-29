@@ -1,0 +1,65 @@
+/* Please edit at ~/.config/wallust/templates/waybar */
+
+window#waybar {
+  background: transparent; 
+  font-size: 14px;
+  color: {{foreground}};
+  min-height: 30px;
+}
+
+#custom-swaync,
+#custom-spotify,
+#custom-weather,
+#clock,
+#cpu,
+#memory,
+#battery,
+#backlight,
+#pulseaudio,
+#custom-bluetooth {
+  background-color: alpha({{background}}, 0.5);
+  color: {{foreground}};
+  border-radius: 15px;
+  padding: 0px 7px;    /* Tighter padding = shorter bar */
+  margin: 6px 6px;     /* Optional tweak */
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, .6);
+}
+
+#workspaces button {
+  all: unset;
+  background-color: alpha({{color2}}, 0);
+  color: {{foreground}};
+  border: none;
+  box-shadow: none;
+  outline: none;
+  border-radius: 100%;
+  padding: 0px 7px;
+  margin: 6px 6px;
+  transition: all 0.2s ease;
+
+}
+
+#workspaces button:hover {
+  color: {{color3}};
+  font-size: 20px;
+  border: none;
+  transition: all 0.2s ease;
+  background-color: transparent;
+}
+
+#workspaces button.active {
+  background-color: alpha(#FFFFFF, 0.5);
+  color: {{color3}};
+  border-radius: 100%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease;
+}
+
+#workspaces {
+  background-color: alpha({{background}}, 0.3);
+  color: {{color1}};
+  border-radius: 30px;
+  padding: 0px 7px;
+  margin: 6px 6px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, .6);
+}

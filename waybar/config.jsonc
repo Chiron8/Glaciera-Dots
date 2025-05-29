@@ -1,0 +1,79 @@
+{
+  "layer": "top",
+  "position": "top",
+  "margin": [10, 10, 10, 10],
+  "height": 10,
+  "modules-left": ["custom/swaync", "clock", "custom/spotify", "custom/weather"],
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": ["cpu", "memory", "backlight", "battery", "pulseaudio", "custom/bluetooth"],
+
+  "custom/swaync": {
+    "format": "",
+    "on-click": "swaync-client -t"
+  },
+  "custom/spotify": {
+    "format": "󰽴 {}",
+    "exec": "playerctl metadata --format '{{ title }} - {{ artist }}'",
+    "interval": 1,
+    "on-click": "spotify"
+  },
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "format-icons": {
+      "default": "󰧟",
+      "focused": "◉",
+      "empty": ""
+    },
+    "on-click": "hyprctl dispatch workspace {id}",
+    "persistent-workspaces": {
+	    "*": [1,2,3,4,5]
+    }
+  },
+
+  "custom/weather": {
+    "interval": 600,
+    "exec": "~/.config/waybar/scripts/weather.sh",
+    "return-type": "json",
+    "format": "{}",
+    "tooltip": true
+  },
+
+  "clock": {
+    "format": " {:%H:%M:%S}",
+    "interval": 1
+  },
+
+  "cpu": {
+    "format": " {usage}%",
+    "interval": 10,
+    "on-click": "kitty btop"
+  },
+
+  "memory": {
+    "format": " {used} GiB",
+    "interval": 10,
+    "on-click": "kitty btop"
+  },
+
+  "battery": {
+    "format": "{icon} {capacity}%",
+    "format-icons": ["󰂃", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "interval": 30,
+    "on-click": "kitty btop"
+  },
+  "backlight": {
+	  "format": "{icon} {percent}%",
+	  "format-icons": ["󰌶", "󰌵"]
+
+  },
+  "pulseaudio": {
+	  "format": "󰓃 {volume}%",
+	  "on-click": "pavucontrol"
+  },
+  "custom/bluetooth": {
+	  "format": "󰂯",
+	  "on-click": "blueman-manager"
+  }
+}
+

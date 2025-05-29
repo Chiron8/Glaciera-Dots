@@ -1,0 +1,42 @@
+/* Please configure at ~/.config/wallust/templates/wofi-style */
+
+#window {
+  margin: 0px;
+  border: 2px solid #9F344F;
+  background-color: alpha(#1C1E1B, 0.7); /* Translucent black */
+  border-radius: 15px;
+  font-family: "JetBrainsMono Nerd Font Mono", monospace;
+  font-size: 16px;
+  padding: 10px;
+}
+
+#input {
+  margin: 5px;
+  border: none;
+  background-color: alpha(#FFFFFF, 0.1);
+  color: #FFF8FB;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+#entry {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: alpha(#FFFFFF, 0.1);
+}
+
+#entry:selected {
+  background-color: alpha(#9F344F, 0.7);
+  color: #1C1E1B;
+  border: none;
+}
+
+#text {
+  padding-left: 10px;
+}
+
+#img {
+  margin-right: 10px;
+}
+

@@ -1,0 +1,11 @@
+allow-images=true
+show-icons=true
+icon-size=24
+hide-scroll=true
+width=30%
+location=center
+always_parse_args=true
+allow_markup=true
+prompt=
+term=kitty
+
