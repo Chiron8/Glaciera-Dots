@@ -8,16 +8,7 @@ I'll add detailed info later
 
 Video:
 
-![Video](https://github.com/Chiron8/Glaciera-Dots/blob/master/output2.mp4)
+## 🎥 Demo
 
-
-
-
-
-
-
-
-
-
-)
+[![Watch the demo](https://img.youtube.com/vi/iyI5Qn-g230/maxresdefault.jpg)](https://www.youtube.com/watch?v=iyI5Qn-g230)
 
