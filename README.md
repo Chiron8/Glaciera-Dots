@@ -2,7 +2,7 @@
 
 My dotfiles I use for my Gentoo Linux system
 
-## Programs
+## 🧑‍💻 Programs
 - 🪟 Window manager - Hyprland
 - 📏 Bar - Waybar
 - 🖹  Text/Code editor - Neovim
