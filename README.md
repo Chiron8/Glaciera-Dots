@@ -5,7 +5,7 @@ My dotfiles I use for my Gentoo Linux system
 ## 🧑‍💻 Programs
 - 🪟 Window manager - Hyprland
 - 📏 Bar - Waybar
-- 🖹  Text/Code editor - Neovim
+-  🖹 Text/Code editor - Neovim
 - 💲 Terminal - Kitty
 - 📊 Resource monitor - Btop
 - 🖼️ Wallpaper daemon - Swww
