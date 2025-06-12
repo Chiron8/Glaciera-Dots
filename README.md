@@ -11,6 +11,7 @@ My dotfiles I use for my Gentoo Linux system
 - 🖼️ Wallpaper daemon - Swww
 - ⚙️ Application launcher - Wofi
 - 🔔 Nofication daemon - SwayNC
+
 - 🎧 Audio visualizer - Cava
 - 🚀 Shell prompt - Starship
 - 🐧 Sys Info - Fastfetch
@@ -22,3 +23,7 @@ My dotfiles I use for my Gentoo Linux system
 ## 🎥 Demo
 
 [![Watch the demo](https://github.com/Chiron8/Glaciera-Dots/blob/master/Untitled.png)](https://www.youtube.com/watch?v=iyI5Qn-g230)
+
+### Stats
+
+5,000 lines of awesomeness
