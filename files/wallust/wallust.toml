@@ -56,3 +56,7 @@ wofi-style = { template = 'wofi-style.css', target = '~/.config/wofi/style.css'}
 swaync = { template = 'swaync.json', target = '~/.config/swaync/style.css'}
 #nvim = { template = 'nvim.lua', target = '~/.config/nvim/init.lua'}
 rpi = { template = 'rpi.py', target = '~/.config/rpi/wallust.py'}
+#bashrc = { template = 'bashrc', target = '~/.bashrc'}
+hyprlock = { template = 'hyprlock.conf', target = '~/.config/hypr/hyprlock.conf'}
+cava = { template = 'cava', target = '~/.config/cava/config'}
+echocolours = { template = "echocolours.sh", target = "~/.config/echocolours.sh"}

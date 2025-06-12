@@ -3,7 +3,7 @@
 window#waybar {
   background: transparent; 
   font-size: 14px;
-  color: #FFF8FB;
+  color: #F2F3F9;
   min-height: 30px;
 }
 
@@ -17,8 +17,8 @@ window#waybar {
 #backlight,
 #pulseaudio,
 #custom-bluetooth {
-  background-color: alpha(#1C1E1B, 0.5);
-  color: #FFF8FB;
+  background-color: alpha(#202024, 0.5);
+  color: #F2F3F9;
   border-radius: 15px;
   padding: 0px 7px;    /* Tighter padding = shorter bar */
   margin: 6px 6px;     /* Optional tweak */
@@ -27,8 +27,8 @@ window#waybar {
 
 #workspaces button {
   all: unset;
-  background-color: alpha(#328E55, 0);
-  color: #FFF8FB;
+  background-color: alpha(#36409A, 0);
+  color: #F2F3F9;
   border: none;
   box-shadow: none;
   outline: none;
@@ -40,7 +40,7 @@ window#waybar {
 }
 
 #workspaces button:hover {
-  color: #9F344F;
+  color: #3441B4;
   font-size: 20px;
   border: none;
   transition: all 0.2s ease;
@@ -49,15 +49,15 @@ window#waybar {
 
 #workspaces button.active {
   background-color: alpha(#FFFFFF, 0.5);
-  color: #9F344F;
+  color: #3441B4;
   border-radius: 100%;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
   transition: all 0.2s ease;
 }
 
 #workspaces {
-  background-color: alpha(#1C1E1B, 0.3);
-  color: #204074;
+  background-color: alpha(#202024, 0.3);
+  color: #323EA8;
   border-radius: 30px;
   padding: 0px 7px;
   margin: 6px 6px;

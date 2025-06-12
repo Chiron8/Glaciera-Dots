@@ -46,6 +46,8 @@ local opts = {}
 
 require("lazy").setup("plugins", opts)
 
+vim.cmd[[colorscheme tokyonight]]
+
 local presets = require("markview.presets");
 require("markview").setup({
         markdown = {
@@ -64,3 +66,4 @@ vim.api.nvim_set_keymap('n', '<leader>sc', '<Plug>SnipClose', {silent = true})
 
 vim.keymap.set('n', '<C-n>', '<Cmd>Neotree toggle<CR>')
 vim.keymap.set('n', '<leader>h', '<Cmd>ToggleTerm size=20 dir=~/Desktop direction=horizontal name=desktop<CR>')
+

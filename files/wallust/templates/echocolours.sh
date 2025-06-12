@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo "BG {{background}}"
+echo "FG {{foreground}}"
+echo "CU {{cursor}}"
+echo "C1 {{color1}}"
+echo "C2 {{color2}}"
+echo "C3 {{color3}}"
+echo "C4 {{color4}}"
+echo "C5 {{color5}}"
+echo "C6 {{color6}}"
+echo "C7 {{color7}}"
+echo "C8 {{color8}}"
+echo "C9 {{color9}}"
+echo "C10 {{color10}}"
+echo "C11 {{color11}}"
+echo "C12 {{color12}}"
+echo "C13 {{color13}}"
+echo "C14 {{color14}}"
+echo "C15 {{color15}}"
+

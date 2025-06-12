@@ -1,17 +1,17 @@
 # Please edit file at ~/.config/wallust/templates/starship
 
 format = """
-[](bg:#9F344F fg:#9F344F)\
+[](bg:#3441B4 fg:#3441B4)\
 $os\
 $username\
-[](bg:#204074 fg:#9F344F)\
+[](bg:#323EA8 fg:#3441B4)\
 $directory\
-[](bg:#9F344F fg:#204074)\
+[](bg:#3441B4 fg:#323EA8)\
 $git_branch\
 $git_status\
-[](bg:#204074 fg:#9F344F)\
+[](bg:#323EA8 fg:#3441B4)\
 $time\
-[ ](fg:#204074)\
+[ ](fg:#323EA8)\
 """
 
 # Disable the blank line at the start of the prompt
@@ -21,7 +21,7 @@ $time\
 # and use the os module below
 [username]
 show_always = true
-style_user = "bg:#9F344F"
+style_user = "bg:#3441B4"
 style_root = "bg:#FF0000"
 format = '[$user ]($style)'
 disabled = false
@@ -29,12 +29,12 @@ disabled = false
 # An alternative to the username module which displays a symbol that
 # represents the current operating system
 [os]
-style = "fg:#9F344F"
+style = "fg:#3441B4"
 format = '($style)'
 disabled = true # Disabled by default
 
 [directory]
-style = "bg:#204074"
+style = "bg:#323EA8"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -58,16 +58,16 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bg:#9F344F"
+style = "bg:#3441B4"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "bg:#9F344F"
+style = "bg:#3441B4"
 format = '[$all_status$ahead_behind ]($style)'
 
 
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "bg:#204074"
+style = "bg:#323EA8"
 format = '[  $time ]($style)'

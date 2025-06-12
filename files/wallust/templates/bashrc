@@ -1,0 +1,33 @@
+#
+# This file is sourced by all *interactive* bash shells on startup,
+# including some apparently interactive shells such as scp and rcp
+# that can't tolerate any output.  So make sure this doesn't display
+# anything or bad things will happen !
+
+
+# Test for an interactive shell.  There is no need to set anything
+# past this point for scp and rcp, and it's important to refrain from
+# outputting anything in those cases.
+if [[ $- != *i* ]] ; then
+	# Shell is non-interactive.  Be done now!
+    echo -en "\e]P0{{background}}" #black
+    echo -en "\e]P8{{color1}}" #darkgrey
+    echo -en "\e]P1{{color2}}" #darkred
+    echo -en "\e]P9{{color3}}" #red
+    echo -en "\e]P2{{color4}}" #darkgreen
+    echo -en "\e]PA{{color5}}" #green
+    echo -en "\e]P3{{color6}}" #brown
+    echo -en "\e]PB{{color7}}" #yellow
+    echo -en "\e]P4{{color8}}" #darkblue
+    echo -en "\e]PC{{color9}}" #blue
+    echo -en "\e]P5{{color10}}" #darkmagenta
+    echo -en "\e]PD{{color11}}" #magenta
+    echo -en "\e]P6{{color12}}" #darkcyan
+    echo -en "\e]PE{{color13}}" #cyan
+    echo -en "\e]P7{{color14}}" #lightgrey
+    echo -en "\e]PF{{foreground}}" #white
+    clear #for background artifacting
+fi
+
+# Put your fun stuff here.
+[ -x /bin/fish ] && SHELL=/bin/fish exec fish

@@ -1,0 +1,45 @@
+[simulation]
+heads = 6
+rule = "RL"
+speed_ms = 50.0
+trail_length = 16
+color_cells = true
+seed = ""
+
+[display]
+colors = [ 
+    "#323EA8",
+    "#36409A",
+    "#3441B4",
+    "#3A44A5",
+    "#4753C7",
+    "#5775EE",
+    "#E4E6EE",
+    "#A0A1A7",
+    "#323EA8",
+    "#36409A",
+    "#3441B4",
+    "#3A44A5",
+    "#4753C7",
+    "#5775EE",
+    "#E4E6EE"
+]
+fade_trail_color = ""
+state_based_colors = false
+live_colors = false
+randomize_heads = false
+randomize_trails = false
+head_char = ["██"]
+trail_char = ["▓▓"]
+cell_char = "░░"
+
+[controls]
+quit = "q"
+toggle = " "
+reset = "r"
+faster = "+"
+slower = "-"
+config_reload = "c"
+help = "h"
+statusbar = "b"
+seed_toggle = "s"

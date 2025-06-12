@@ -2,8 +2,8 @@
 
 #window {
   margin: 0px;
-  border: 2px solid #9F344F;
-  background-color: alpha(#1C1E1B, 0.7); /* Translucent black */
+  border: 2px solid #3441B4;
+  background-color: alpha(#202024, 0.7); /* Translucent black */
   border-radius: 15px;
   font-family: "JetBrainsMono Nerd Font Mono", monospace;
   font-size: 16px;
@@ -14,7 +14,7 @@
   margin: 5px;
   border: none;
   background-color: alpha(#FFFFFF, 0.1);
-  color: #FFF8FB;
+  color: #F2F3F9;
   padding: 8px;
   border-radius: 10px;
 }
@@ -27,8 +27,8 @@
 }
 
 #entry:selected {
-  background-color: alpha(#9F344F, 0.7);
-  color: #1C1E1B;
+  background-color: alpha(#3441B4, 0.7);
+  color: #202024;
   border: none;
 }
 
