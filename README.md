@@ -14,6 +14,10 @@ My dotfiles I use for my Gentoo Linux system
 - 🎧 Audio visualizer - Cava
 - 🚀 Shell prompt - Starship
 - 🐧 Sys Info - Fastfetch
+- 🎨 Colour generator - Wallust
+- Misc:
+  - 🪈 Pipes.sh
+  - 🔊 Pavucontrol
 
 ## 🎥 Demo
 
