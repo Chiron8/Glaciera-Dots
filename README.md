@@ -2,6 +2,10 @@
 
 My dotfiles I use for my Gentoo Linux system
 
+> [!WARNING]
+> Due to the high number of calls, wttr.in is temporarily unavailable!
+> This means the weather widget will output an error, I am currently switching to openweather
+
 ## 🧑‍💻 Programs
 - 🪟 Window manager - Hyprland
 - 📏 Bar - Waybar
@@ -11,7 +15,6 @@ My dotfiles I use for my Gentoo Linux system
 - 🖼️ Wallpaper daemon - Swww
 - ⚙️ Application launcher - Wofi
 - 🔔 Nofication daemon - SwayNC
-
 - 🎧 Audio visualizer - Cava
 - 🚀 Shell prompt - Starship
 - 🐧 Sys Info - Fastfetch
