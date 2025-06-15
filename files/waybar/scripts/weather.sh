@@ -1,14 +1,25 @@
 #!/bin/bash
 
-location="Southampton"
+curl -s 'https://api.openweathermap.org/data/2.5/weather?q=YOUR_CITY,uk&appid=YOUR_API_KEY' -o weather.json
 
-# Get the weather
-raw_weather=$(curl -s "wttr.in/$location?format=1")
+temp=$(jq '.main.temp' weather.json)
+temp_c=$(echo "$temp - 273.15" | bc -l)
+temp_c=$(printf "%.0f" "$temp_c")
 
-# Clean up: remove multiple spaces and weird invisible characters
-weather=$(echo "$raw_weather" | sed 's/[[:space:]]\+/ /g' | tr -d '\u00A0')
+conditions=$(jq -r '.weather[0].description' weather.json)
 
-#weather=$(echo "${raw_weather}")
+case "$conditions" in
+  "clear sky") output="☀️" ;;
+  "few clouds") output="🌤️" ;;
+  "scattered clouds") output="🌥️" ;;
+  "broken clouds") output="☁️" ;;
+  "shower rain") output="🌧️" ;;
+  "rain") output="🌦️" ;;
+  "thunderstorm") output="🌩️" ;;
+  "snow") output="❄️" ;;
+  "mist") output="🌫️" ;;
+  *) output="❓" ;;  # fallback for unknown conditions
+esac
 
-echo "{\"text\": \"$weather\", \"tooltip\": \"Weather for $location\"}"
+echo "$output $temp_c°C"
 

@@ -3,8 +3,11 @@
 My dotfiles I use for my Gentoo Linux system
 
 > [!WARNING]
-> Due to the high number of calls, wttr.in is temporarily unavailable!
-> This means the weather widget will output an error, I am currently switching to openweather
+> I have now switched the weather widget from wttr.in to openweather due to wttr.in facing high demand and it becoming buggy
+> This means you must now create an API key for the weather widget in waybar.
+> The freemium option can be used as current weather data is only pulled every 10 minutes (or when waybar is manually reset)
+> Make sure to replace your city and API key in `~/.config/waybar/scripts/weather.sh`
+
 
 ## 🧑‍💻 Programs
 - 🪟 Window manager - Hyprland
