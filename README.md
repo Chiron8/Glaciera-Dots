@@ -1,5 +1,7 @@
 # Glaciera Dots
 
+![Screenshot](image(1).png)
+
 My dotfiles I use for my Gentoo Linux system
 
 > [!WARNING]
@@ -29,6 +31,8 @@ My dotfiles I use for my Gentoo Linux system
 ## 🎥 Demo
 
 [![Watch the demo](https://github.com/Chiron8/Glaciera-Dots/blob/master/Untitled.png)](https://www.youtube.com/watch?v=iyI5Qn-g230)
+
+The video is of version 1 but v2 is similar (but better)
 
 ## Stats
 
