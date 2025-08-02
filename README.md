@@ -37,3 +37,9 @@ The video is of version 1 but v2 is similar (but better)
 ## Stats
 
 - 5,000 lines of awesomeness 😎
+
+
+---
+
+> [!WARNING]
+> Glaciera Dots v1 is now deprecated meaning I will not be making any future updates to it.
