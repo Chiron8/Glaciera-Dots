@@ -12,7 +12,7 @@ button {
     border-color: black;
 	text-decoration-color: #FFFFFF;
     color: #FFFFFF;
-	background-color: #202024;
+	background-color: #0D0E11;
 	border-style: solid;
 	border-width: 1px;
 	background-repeat: no-repeat;
@@ -21,7 +21,7 @@ button {
 }
 
 button:focus, button:active, button:hover {
-	background-color: #3441B4;
+	background-color: #174788;
 	outline-style: none;
 }
 

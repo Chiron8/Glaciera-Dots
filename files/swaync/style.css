@@ -1,23 +1,23 @@
 * {
-	color: #F2F3F9;
+	color: #C7BAD0;
         outline: none;
 }
 
 .blank-window {
 	background: transparent;
-	outline: #202024;
+	outline: #0D0E11;
 }
 
 .notification-action,
 .notification-default-action,
 .control-center {
 	border-radius: 0.75em;
-	background: alpha(#202024, 0.5);
+	background: alpha(#0D0E11, 0.5);
 }
 
 .notification {
 	box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.5);
-	background: alpha(#3441B4, 0.8);
+	background: alpha(#174788, 0.8);
 }
 
 
@@ -26,7 +26,7 @@
 }
 
 .control-center .notification-row {
-	/*background: alpha(#3441B4, 0.2);*/
+	/*background: alpha(#174788, 0.2);*/
 	background: transparent;
 	border: none;
 }
@@ -38,7 +38,7 @@
 
 .widget-dnd>switch {
 	border-radius: 0.75em;
-	background: alpha(#3441B4, 0.5);
+	background: alpha(#174788, 0.5);
 	padding: 1px;
 }
 
@@ -56,18 +56,18 @@
 
 .widget-buttons-grid {
 	margin: 1em;
-	background: alpha(#3441B4, 0.5);
+	background: alpha(#174788, 0.5);
 }
 
 .widget-buttons-grid>flowbox>flowboxchild>button {
 	box-shadow: none;
-	color: #F2F3F9;
+	color: #C7BAD0;
 	font-style: normal;
-	background: #202024;
+	background: #0D0E11;
 }
 
 .widget-buttons-grid>flowbox>flowboxchild>button:hover {
-	background: #202024;
+	background: #0D0E11;
 }
 
 /* Style for sliders in swaync */
@@ -80,7 +80,7 @@ trough {
 
 trough highlight {
     padding: 5px;
-    background: #3441B4;
+    background: #174788;
     border-radius: 20px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
     transition: all .7s ease;
@@ -89,7 +89,7 @@ trough highlight {
 }
 trough highlight:hover {
     padding: 5px;
-    background: #3441B4;
+    background: #174788;
     border-radius: 20px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
     transition: all .7s ease;

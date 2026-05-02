@@ -48,7 +48,6 @@ saturation = 60
 # ¡ If either one is a directory, then both SHOULD be one. !
 # zathura = { template = 'zathura', target = '~/.config/zathura/zathurarc' }
 
-kitty = { template = 'kitty.conf', target = '~/.config/kitty/colours.conf'}
 waybar = { template = 'waybar.css', target = '~/.config/waybar/style.css'}
 starship = { template = 'starship.toml', target = '~/.config/starship.toml'}
 wlogout = { template = 'wlogout.css', target = '~/.config/wlogout/style.css'}
@@ -59,4 +58,3 @@ rpi = { template = 'rpi.py', target = '~/.config/rpi/wallust.py'}
 #bashrc = { template = 'bashrc', target = '~/.bashrc'}
 hyprlock = { template = 'hyprlock.conf', target = '~/.config/hypr/hyprlock.conf'}
 cava = { template = 'cava', target = '~/.config/cava/config'}
-echocolours = { template = "echocolours.sh", target = "~/.config/echocolours.sh"}

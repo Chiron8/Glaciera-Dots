@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl -s 'https://api.openweathermap.org/data/2.5/weather?q=YOUR_CITY,uk&appid=YOUR_API_KEY' -o weather.json
+curl -s 'https://api.openweathermap.org/data/2.5/weather?q=southampton,uk&appid=30379a8cd9fa9375a7404e9f7482fca6' -o weather.json
 
 temp=$(jq '.main.temp' weather.json)
 temp_c=$(echo "$temp - 273.15" | bc -l)

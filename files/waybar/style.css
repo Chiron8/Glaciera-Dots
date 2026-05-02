@@ -1,9 +1,10 @@
 /* Please edit at ~/.config/wallust/templates/waybar */
 
 window#waybar {
+  font-family: "JetBrains Mono";
   background: transparent; 
   font-size: 14px;
-  color: #F2F3F9;
+  color: #C7BAD0;
   min-height: 30px;
 }
 
@@ -13,12 +14,10 @@ window#waybar {
 #clock,
 #cpu,
 #memory,
-#battery,
-#backlight,
-#pulseaudio,
+#wireplumber,
 #custom-bluetooth {
-  background-color: alpha(#202024, 0.5);
-  color: #F2F3F9;
+  background-color: alpha(#0D0E11, 0.5);
+  color: #C7BAD0;
   border-radius: 15px;
   padding: 0px 7px;    /* Tighter padding = shorter bar */
   margin: 6px 6px;     /* Optional tweak */
@@ -27,20 +26,21 @@ window#waybar {
 
 #workspaces button {
   all: unset;
-  background-color: alpha(#36409A, 0);
-  color: #F2F3F9;
+  font-size: 12px;
+  background-color: alpha(#22277B, 0);
+  color: #C7BAD0;
   border: none;
   box-shadow: none;
   outline: none;
   border-radius: 100%;
-  padding: 0px 7px;
-  margin: 6px 6px;
+  padding: 2px 3px;
+  margin: 7px 7px;
   transition: all 0.2s ease;
 
 }
 
 #workspaces button:hover {
-  color: #3441B4;
+  color: #174788;
   font-size: 20px;
   border: none;
   transition: all 0.2s ease;
@@ -49,15 +49,15 @@ window#waybar {
 
 #workspaces button.active {
   background-color: alpha(#FFFFFF, 0.5);
-  color: #3441B4;
+  color: #174788;
   border-radius: 100%;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
   transition: all 0.2s ease;
 }
 
 #workspaces {
-  background-color: alpha(#202024, 0.3);
-  color: #323EA8;
+  background-color: alpha(#0D0E11, 0.3);
+  color: #36206B;
   border-radius: 30px;
   padding: 0px 7px;
   margin: 6px 6px;

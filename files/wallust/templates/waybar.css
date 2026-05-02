@@ -1,6 +1,7 @@
 /* Please edit at ~/.config/wallust/templates/waybar */
 
 window#waybar {
+  font-family: "JetBrains Mono";
   background: transparent; 
   font-size: 14px;
   color: {{foreground}};
@@ -13,9 +14,7 @@ window#waybar {
 #clock,
 #cpu,
 #memory,
-#battery,
-#backlight,
-#pulseaudio,
+#wireplumber,
 #custom-bluetooth {
   background-color: alpha({{background}}, 0.5);
   color: {{foreground}};
@@ -27,14 +26,15 @@ window#waybar {
 
 #workspaces button {
   all: unset;
+  font-size: 12px;
   background-color: alpha({{color2}}, 0);
   color: {{foreground}};
   border: none;
   box-shadow: none;
   outline: none;
   border-radius: 100%;
-  padding: 0px 7px;
-  margin: 6px 6px;
+  padding: 2px 3px;
+  margin: 7px 7px;
   transition: all 0.2s ease;
 
 }
