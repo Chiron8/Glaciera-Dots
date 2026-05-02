@@ -1,6 +1,6 @@
-# Glaciera Dots V2
+# Glaciera Dots V3
 
-![Screenshot](image(1).png)
+![Screenshot](image(4).png)
 
 My dotfiles I use for my Gentoo Linux system
 
@@ -18,15 +18,16 @@ My dotfiles I use for my Gentoo Linux system
 - 💲 Terminal - Kitty
 - 📊 Resource monitor - Btop
 - 🖼️ Wallpaper daemon - Swww
-- ⚙️ Application launcher - Wofi
+- ⚙️ Application launcher - Sherlock
 - 🔔 Nofication daemon - SwayNC
 - 🎧 Audio visualizer - Cava
 - 🚀 Shell prompt - Starship
 - 🐧 Sys Info - Fastfetch
 - 🎨 Colour generator - Wallust
 - Misc:
-  - 🪈 Pipes.sh
+  - 🐟 asciiquarium
   - 🔊 Pavucontrol
+  - 🐂 Portage
 
 ## 🎥 Demo
 
@@ -42,4 +43,4 @@ The video is of version 1 but v2 is similar (but better)
 ---
 
 > [!WARNING]
-> Glaciera Dots v1 is now deprecated meaning I will not be making any future updates to it.
+> Glaciera Dots v1 + v2 are now deprecated meaning I will not be making any future updates to it.
