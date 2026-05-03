@@ -31,7 +31,7 @@ My dotfiles I use for my Gentoo Linux system
 
 ## 🎥 Demo
 
-[Watch the demo](https://www.youtube.com/watch?v=iyI5Qn-g230)
+[Watch the demo](https://www.youtube.com/watch?v=55YznKXE8JY)
 
 ---
 
