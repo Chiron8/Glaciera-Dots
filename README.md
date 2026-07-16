@@ -1,39 +1,32 @@
-# Glaciera Dots V3
+# Glaciera Dots V4
 
-![Screenshot](image(4).png)
+![Screenshot](screenshot.png)
 
 My dotfiles I use for my Gentoo Linux system
 
-> [!WARNING]
-> I have now switched the weather widget from wttr.in to openweather due to wttr.in facing high demand and it becoming buggy
-> This means you must now create an API key for the weather widget in waybar.
-> The freemium option can be used as current weather data is only pulled every 10 minutes (or when waybar is manually reset)
-> Make sure to replace your city and API key in `~/.config/waybar/scripts/weather.sh`
-
-
-## 🧑‍💻 Programs
-- 🪟 Window manager - Hyprland
-- 📏 Bar - Waybar
--  🖹 Text/Code editor - Neovim
-- 💲 Terminal - Kitty
+## 󱃸 Programs
+- 󱂬  Window manager - Hyprland
+-   Bar - Vibepanel
+- 󰧮  Text/Code editor - Neovim
+-   Terminal - Foot
 - 📊 Resource monitor - Btop
-- 🖼️ Wallpaper daemon - Swww
-- ⚙️ Application launcher - Sherlock
-- 🔔 Nofication daemon - SwayNC
-- 🎧 Audio visualizer - Cava
-- 🚀 Shell prompt - Starship
-- 🐧 Sys Info - Fastfetch
-- 🎨 Colour generator - Wallust
+-   Wallpaper daemon - Awww
+- 󰌧 Application launcher - Ulauncher
+-  Nofication daemon - Vibepanel
+-  Audio visualizer - Vibepanel + Cava
+- 󱓟 Shell prompt - Starship
+- 󰣨 Sys Info - Fastfetch
 - Misc:
-  - 🐟 asciiquarium
-  - 🔊 Pavucontrol
-  - 🐂 Portage
+  -  asciiquarium
+  - 󰯉 ninvaders
+  - 󰓃 Pavucontrol
+  - 󰆚 Portage
 
-## 🎥 Demo
+## 󰿏 Demo
 
-[Watch the demo](https://www.youtube.com/watch?v=55YznKXE8JY)
+[Watch the demo](https://youtu.be/EIKYxF8IQ_A)
 
 ---
 
 > [!WARNING]
-> Glaciera Dots v1 + v2 are now deprecated meaning I will not be making any future updates to it.
+> Glaciera Dots v1-3 are now deprecated meaning I will not be making any future updates to it.

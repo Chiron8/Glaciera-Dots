@@ -9,9 +9,9 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-    	"source": "~/.config/fastfetch/chiron.png",
-    	"type": "kitty-direct",
-      	"height": 20,
+    	"source": "~/Downloads/my-Image.png",
+    	"type": "sixel",
+      	"height": 5,
       	"padding": {
             "top": 1,
     		"left": 2
@@ -21,74 +21,38 @@
           "separator": " ➜  "
     },
     "modules": [
-        "break",
          {
             "type": "os",
-            "key": "OS   ",
+            "key": "󰣨  ",
             "keyColor": "36",  // = color1
         },
         {
             "type": "kernel",
-            "key": " ├  ",
+            "key": "  ",
             "keyColor": "36",
         },
         {
-            "type": "shell",
-            "key": " └  ",
-            "keyColor": "36", 
-        },
-        {
             "type": "wm",
-            "key": "WM   ",
-            "keyColor": "34", 
-        },
-        {
-            "type": "wmtheme",
-            "key": " ├ 󰉼 ",
-            "keyColor": "34",
-        },
-        {
-            "type": "terminal",
-            "key": " ├  ",
-            "keyColor": "34",
-        },
-        {
-            "type": "terminalfont",
-            "key": " └  ",
-            "keyColor": "34", 
-        },
-        {
-            "type": "host",
-            "format": "{5} {1} Type {2}",
-            "key": "PC   ",
-            "keyColor": "35",
+            "key": "  ",
+            "keyColor": "36",
         },
         {
             "type": "cpu",
             "format": "{1} ({3}) @ {7}",
-            "key": " ├  ",
+            "key": "  ",
             "keyColor": "35",
         },
         {
             "type": "gpu",
-            "format": "{1} {2}",            
-            "key": " ├ 󰢮 ",
+            "format": "{1} {2}",
+            "hideType": "integrated",
+            "key": "󰢮  ",
             "keyColor": "35",
         },
         {
             "type": "memory",
-            "key": " ├  ",
+            "key": "  ",
             "keyColor": "35",
         },
-        {
-            "type": "swap",
-            "key": " ├ 󰓡 ",
-            "keyColor": "35",
-        },
-        {
-            "type": "disk",
-            "key": " └ 󰋊 ",
-            "keyColor": "35",
-        }
     ]
 }

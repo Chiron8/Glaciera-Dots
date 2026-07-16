@@ -1,0 +1,60 @@
+[bar]
+position = "top"         # "top", "bottom", "left", or "right"
+size = 32
+border_radius = 30
+background_opacity = 0.0 # 0.0 = transparent (islands), 1.0 = solid
+
+[widgets]
+left = ["workspaces", "media", "weather"]
+center = ["clock"]
+right = [
+  "updates",
+  "cpu",
+  "quick_settings",
+  "notifications",
+]
+
+border_radius = 100
+background_opacity = 1
+
+[widgets.clock]
+show_weather = false # Embed weather content in the clock/calendar popover
+
+[widgets.workspaces]
+label_type = "index"
+animate = true
+filter_by_output = true
+
+[theme]
+accent = "#9950ff"
+mode = "auto" # "auto", "dark", "light", "gtk"
+scheme = "dark" # Material You polarity: "dark", "light", or "gtk" (auto mode only)
+animations = true  # Enable/disable all CSS transitions and animations
+ripple = false      # Enable/disable Material Design ripple effect on click
+blur = true
+
+[theme.typography]
+font_family = "" # Empty string inherits the system font
+font_scale = 0.6          # Text size as a multiplier of widget height
+
+[theme.icons]
+theme = "material" # "material" or "gtk"
+weight = 500       # Material icon stroke weight (100-700)
+
+[osd]
+enabled = true
+position = "bottom" # "bottom", "top", "left", "right"
+show_value = false  # Show current value after the bar
+
+[audio]
+allow_overdrive = true
+
+[weather]
+location = "Southampton"
+refresh_interval = 600  # Seconds; minimum 600
+
+[advanced]
+# compositor = "auto"  # "auto", "hyprland", "niri", "mango"
+
+# Custom CSS: place style.css in same directory as this file.
+# See documentation for available CSS variables and classes.

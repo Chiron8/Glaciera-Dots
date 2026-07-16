@@ -1,9 +1,12 @@
 -- General preferences
-vim.cmd("set expandtab")
-vim.cmd("set tabstop=4")
-vim.cmd("set softtabstop=4")
-vim.cmd("set shiftwidth=4")
-vim.cmd("set autoindent")
+vim.opt.expandtab = true
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+
+vim.opt.autoindent = true
+vim.opt.smartindent = true
+
 vim.g.mapleader= " "
 
 vim.opt.termguicolors = true
@@ -38,7 +41,6 @@ vim.opt.rtp:prepend(lazypath)
 local opts = {}
 require("lazy").setup("plugins", opts)
 
-vim.cmd[[colorscheme tokyonight]]
 
 -- Markview
 -- Turn off error messages

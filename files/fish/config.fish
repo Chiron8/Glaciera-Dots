@@ -26,3 +26,9 @@ set CUDAToolkit_ROOT /opt/cuda/bin
 starship init fish | source
 
 
+
+fish_add_path /home/chiron/.spicetify
+
+# terminal-wakatime setup
+set -gx PATH "$HOME/.wakatime" $PATH
+terminal-wakatime init fish | source
